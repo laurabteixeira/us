@@ -1,0 +1,1 @@
+# g++ variables.cpp -o ./build/variables.o && ./build/variables.o
