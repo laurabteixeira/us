@@ -12,11 +12,18 @@ void print_number(int number){
 int main(){
   int a, b;
   a = 12;
-  b=14;
-  
-  const string mongay = "gabriel";
+  b=4;
 
-  cout << mongay;
+  float j = 6.02e23;
+
+  unsigned int x = 20u; //x é inicializado como um número sem sinal, pois é unsigned. 
+  x -= 20u; 
+  std::cout << "x: " << x << std::endl;
+
+  cout << j << "\n";
+
+  const string str = R"("string" with \backslash)";
+  cout << str << "\n";
 
   auto result = a+b;
   print_number(result);
